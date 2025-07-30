@@ -1,0 +1,33 @@
+p {
+  /* ALEX: spelling correction largeer -> larger */
+  font-size: larger; /* Console warning: Invalid property value */
+}
+
+h1 {
+  /* ALEX: font-size missing dash & should be 23px not 23xp */
+  font-size: 23px;
+  color: purple;
+}
+
+/* ALEX: spelling correction contianer -> container*/
+.container {
+  /* ALEX: changed the spelling of colro -> color */
+  color: red;
+  width: 500px;
+  height: 500px;
+  /* background should be the same as #output */
+  /* ALEX: changed background color to match #output */
+  background-color: #f0f0f0;
+}
+
+#output {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  /* ALEX: spelling correction pudding -> padding */
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+}
